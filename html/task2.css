@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(247, 235, 235);
+}
+ul{
+    background-color: blue;
+    list-style-type:none;
+    display: flex;
+    padding: 20px;
+   
+}
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    padding:  20px 80px;
+    
+
+}
+a:hover{
+    background-color: blueviolet;
+
+}
+main{
+    border: 1px solid white;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    box-shadow:2px 2px 20px grey;
+    padding: 10px;
+    margin: 1px 10px 1px 10px;
+}
+img{
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-top: 30px;
+   
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+}
+span{
+    color: blue;
+    
+}
+div{
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 50px;
+}
+section{
+    background-color: blue;
+    color: white;
+    padding:20px;
+    margin-top: 40px;
+}

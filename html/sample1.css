@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(235, 50, 81);
+}
+div{
+    background-color: white;
+    width:40%;
+    height:70%;
+    border-radius: 5px;
+    
+}
+span{
+    color:rgb(228, 62, 90);
+    font-weight: 700;
+    text-transform:capitalize;
+    text-decoration:dotted
+}
