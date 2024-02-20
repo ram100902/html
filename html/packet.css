@@ -1,0 +1,101 @@
+nav{
+    display: flex;
+    background-color: rgb(25, 25, 114);
+}
+div{
+    display: flex;
+    margin-left: 400px;
+}
+main{
+    margin-left: 100px;
+    margin-right: -30px;
+}
+p{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+span{
+    font-size: 30px;
+}
+.b1{
+    background-color: rgb(146, 146, 221);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+   
+    margin-right: 10px;
+
+}
+.b2{
+    background-color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 35px;
+    
+}
+button{
+    margin:auto;
+}
+
+.b1:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 5px rgb(146, 146, 221);
+    transition: 0.6s;
+    transform:translateY(-4px);
+}
+.b2:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 5px white;
+    transition: 0.6s;
+    transform:translateY(-4px);
+}
+@media (max-width:500px){
+    nav{
+        flex-direction: column;
+        height: 300px;
+    }
+    main{
+        margin: auto;
+    }
+    div{
+        flex-direction: column;
+        margin: auto;
+
+    }
+    button{
+        padding: 1px 10px;
+        margin-top: 5px;
+    }
+    .b1{
+        margin-left:10px;
+        padding-right: 46px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    
+}
+@media (min-width:500px) and (max-width:900px){
+    nav{
+        flex-direction: column;
+        height: 200px;
+    }
+    main{
+        margin: auto;
+    }
+    div{
+        
+        margin: auto;
+
+    }
+    button{
+        padding: 1px 10px;
+        margin-top: 5px;
+    }
+    p{
+        text-align: center;
+    }
+    
+}
